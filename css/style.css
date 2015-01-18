@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #666666;
+  background-color: #080808;
 }
 
 header, footer {
@@ -34,6 +34,7 @@ header, footer {
 /*----[jackpot]----*/
 
 #logo {
+  margin: 0 auto;
   display: block;
   background-color: #fff;
   width: 52px;
@@ -41,8 +42,11 @@ header, footer {
   border-radius: 50px;
   padding: 10px 5px 10px 1px;
   text-align: center;
-
 }
+
+/*#logo > img {
+  width: 60px;
+}*/
 
 #container {
   padding: 2em 5em;
@@ -74,7 +78,22 @@ header, footer {
  text-align: center;
  display: block;
  margin: 10px 0;
- padding: 50px;
+ padding: 10px;
+}
+
+#button > h2 {
+  font-size: 2em;
+}
+
+#button > img {
+  display: block;
+  margin: 10px auto;
+  width: 60px;
+}
+
+#button > img:hover {
+  -webkit-transform: perspective( 400px ) rotateX( 180deg );
+  -webkit-transition: all .4s ease;
 }
 
 /*--- [Media Queries] ---*/
