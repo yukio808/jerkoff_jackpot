@@ -1,5 +1,96 @@
 /* -- [CSS file] --*/
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
-  background: ;
+  background-color: #666666;
+}
+
+header, footer {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+
+}
+
+#fullwrap, #container {
+ margin: 0 auto;
+ padding: 2em;
+ border: 1px solid #fff;
+   
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*----[jackpot]----*/
+
+#logo {
+  display: block;
+  background-color: #fff;
+  width: 52px;
+  height: 50px;
+  border-radius: 50px;
+  padding: 10px 5px 10px 1px;
+  text-align: center;
+
+}
+
+#container {
+  padding: 2em 5em;
+  border: 1px solid #fff;
+}
+
+#adv, #adj, #noun{
+  border: 1px solid #fff;
+  width: 30.99%;
+  height: 150px;
+  float: left;
+  margin: 0 10px;
+}
+
+#adv {
+  
+}
+
+#adj {
+  
+}
+
+#noun {
+ 
+}
+
+#button {
+ border: 1px solid #fff;
+ text-align: center;
+ display: block;
+ margin: 10px 0;
+ padding: 50px;
+}
+
+/*--- [Media Queries] ---*/
+
+@media only screen and (min-width: 1200px){
+
+}
+
+@media only screen and (min-width: 913px) and (max-width: 1199px){
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 912px){
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+
 }
