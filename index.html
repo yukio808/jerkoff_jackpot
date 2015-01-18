@@ -1,12 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Jerkoff Jackpot</title>
+<style type="text/css">
+div.slot{
+  float:left;
+  width:32px;
+  background:#F5F5F5;
+  border:#999 1px solid;
+  padding:10px;
+  font-size:24px;
+  text-align:center;
+  margin:5px;
+}
+</style>
+<script>
+  
+
+function rollDice(){
+    var myarray1 = new Array("Yes", "no", "maybe?");
+  
+    var slot1 = document.getElementById("slot1");
+    var slot2 = document.getElementById("slot2");
+    var slot3 = document.getElementById("slot3");  
+    var message = 
+document.getElementById("message");
+    var status = document.getElementById("status");
+    var s1 = Math.floor(Math.random() * 6) + 1;
+    var s2 = Math.floor(Math.random() * 6) + 1;
+    var s3 = Math.floor(Math.random() * 6) + 1;
+    var mess = myarray1[Math.floor(Math.random() * myarray1.length)];
+    var result = [s1, s2, s3, mess];
+    slot1.innerHTML = s1;
+    slot2.innerHTML = s2;
+    slot3.innerHTML = s3;
+//   message.innerHTML = mess;
+    status.innerHTML = "You're a BUM!! "+result+"!";
+    if(s1 == s2 == s3){
+        status.innerHTML += " Now, you're a MEGA BUM";
+    }
+}
+</script>
 </head>
 <body>
-  <div id="container">
-    
-  </div><!--end container div-->
+<div id="slot1" class="slot">0</div>
+<div id="slot2" class="slot">0</div>
+<div id="slot3" class="slot">0</div>
+<button onclick="rollDice()">Touch me here</button>
+<h2 id="status" style="clear:left;"></h2>
 </body>
 </html>
