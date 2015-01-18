@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +12,7 @@ div.slot{
   font-size:24px;
   text-align:center;
   margin:5px;
+
 }
 </style>
 <script>
