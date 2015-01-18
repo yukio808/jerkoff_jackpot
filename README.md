@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # jerkoff_jackpot
 hello and welcome to the jerk off jackpot read.me
 here you will have access to the javascript and index.html documents.
@@ -17,3 +18,14 @@ all javascript was writen and inputed by Yukio and Teresa.
 Use our code freely and enjoy the text generator. but most importantly enjoy the coding.
 
 Karen handled all the data so yah. she has a !$ mindset
+=======
+//*--- Jerkoff Jackpot ---*//
+
+Saturday Project 1 | Jan. 17, 2015
+
+
+
+
+
+//*--- Html Docs ---*//
+>>>>>>> 47fd83144dc619ac572796f47fd5db54fd585ece

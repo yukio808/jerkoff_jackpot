@@ -1,51 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style type="text/css">
-div.slot{
-  float:left;
-  width:32px;
-  background:#F5F5F5;
-  border:#999 1px solid;
-  padding:10px;
-  font-size:24px;
-  text-align:center;
-  margin:5px;
-}
-</style>
-<script>
-  
-
-function rollDice(){
-    var myarray1 = new Array("Yes", "no", "maybe?");
-  
-    var slot1 = document.getElementById("slot1");
-    var slot2 = document.getElementById("slot2");
-    var slot3 = document.getElementById("slot3");  
-    var message = 
-document.getElementById("message");
-    var status = document.getElementById("status");
-    var s1 = Math.floor(Math.random() * 6) + 1;
-    var s2 = Math.floor(Math.random() * 6) + 1;
-    var s3 = Math.floor(Math.random() * 6) + 1;
-    var mess = myarray1[Math.floor(Math.random() * myarray1.length)];
-    var result = [s1, s2, s3, mess];
-    slot1.innerHTML = s1;
-    slot2.innerHTML = s2;
-    slot3.innerHTML = s3;
-//   message.innerHTML = mess;
-    status.innerHTML = "You're a BUM!! "+result+"!";
-    if(s1 == s2 == s3){
-        status.innerHTML += " Now, you're a MEGA BUM";
-    }
-}
-</script>
+  <meta charset="UTF-8">
+  <title>Jerkoff Jackpot</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<div id="slot1" class="slot">0</div>
-<div id="slot2" class="slot">0</div>
-<div id="slot3" class="slot">0</div>
-<button onclick="rollDice()">Touch me here</button>
-<h2 id="status" style="clear:left;"></h2>
+  <div id="fullwrap">
+    <header>
+      <div id="logo"><img src="img/1_middle_finger.svg"></div>
+      <h1>JERK-OFF JACKPOT</h1>
+    </header><!--end of wrapper-->
+    
+      <section id="container">
+        <div id="phrases" class="group">
+          <div id="slot1"></div>
+          <div id="slot2"></div>
+          <div id="slot3"></div>
+        </div>
+        <button onclick="jackPot()"><img src="img/one-touch.svg"><h2>Touch me there</h2></button>
+      </section><!--end of jackpot container-->
+    
+    <footer>
+    <p>Copywrite | 2015 | Jerkoff Jackpot</p>
+    </footer>
+  </div><!--end full wrap div-->
+
+<script src="js/jerkoff.js"></script>
 </body>
 </html>
