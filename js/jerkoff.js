@@ -17,9 +17,12 @@ div.slot{
   
 
 function jackPot(){
-    var myArray1 = ["Yes", "no", "maybe?"];
-    var myArray2 = ["Bum", "Slum", "dumb"];
-    var myArray3 = ["Silence", "Quiet", "Shut up!"];
+    var myArray1 = ["annually", "daily", "firmly", "underground", "always", 
+    "before", "certain", "fast", "hard", "so"];
+    var myArray2 = ["large", "fresh", "bitchin\'", "damned", "sexy",
+    "wee", "wonky", "bullshit", "mothafuckin\'", "horny"];
+    var myArray3 = ["ass", "whooping", "cap\'n", "matey", "samurai", 
+    "douchebagery", "fucker", "stripper heels", "fuck up", "ninja", "laser beams"];
   
     var message1 = document.getElementById("message1");
     var message2 = document.getElementById("message2");
