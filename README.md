@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # jerkoff_jackpot
 hello and welcome to the jerk off jackpot read.me
 here you will have access to the javascript and index.html documents.
@@ -28,4 +27,3 @@ Saturday Project 1 | Jan. 17, 2015
 
 
 //*--- Html Docs ---*//
->>>>>>> 47fd83144dc619ac572796f47fd5db54fd585ece
